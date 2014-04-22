@@ -2,6 +2,14 @@
 
 A gem file allowing to use the basics of twitter bootstrap 3 with mootools in secondes.
 
+This allow the following elements to work :
+ - Alert
+ - Modal
+ - Tabs
+ - DropDown
+ - Tooltip
+ - Popover
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,7 +26,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Dependency : "railties", "~> 4.1"
+
+Add to your Gemfile
+
+    gem "bootstrap3_mootools"
+
+Then bundle install and add to app/assets/javascripts/application.js
+
+    //= require bootstrap3_mootools
+
+That's it. Your Bootstrap 3 components do not need JQuery any more.
 
 ## Contributing
 
